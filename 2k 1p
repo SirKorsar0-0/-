@@ -30,7 +30,7 @@ class f:
         return [f"{student.name or 'Імʼя невідоме'} {student.surname or 'Прізвище невідоме'}" for student in students]
 
 
-Student1 = Raf("Денис", "Бура", 2007)
+Student1 = Raf("Денис", "Бура", 2009)
 Student2 = Raf("Зеленський", None, 2019)
 Student3 = Raf("Владислав", "Ткачук", 2007, 2)
 
